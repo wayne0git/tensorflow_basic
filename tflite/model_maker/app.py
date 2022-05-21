@@ -19,13 +19,13 @@ value = st.sidebar.selectbox("Select Model", options, format_func=lambda x: disp
 st.write(value)
 
 if value == 0:
-    tflite_interpreter = tf.lite.Interpreter(model_path='model/model_fp16.tflite')
+    tflite_interpreter = tf.lite.Interpreter(model_path='tensorflow_basic/blob/main/tflite/model_maker/model/model_fp16.tflite')
     tflite_interpreter.allocate_tensors()
 if value == 1:
-    tflite_interpreter = tf.lite.Interpreter(model_path='model/model_int8.tflite')
+    tflite_interpreter = tf.lite.Interpreter(model_path='tensorflow_basic/blob/main/tflite/model_maker/model/model_int8.tflite')
     tflite_interpreter.allocate_tensors()
 if value == 2:
-    tflite_interpreter = tf.lite.Interpreter(model_path='model/model_dynamic.tflite')
+    tflite_interpreter = tf.lite.Interpreter(model_path='tensorflow_basic/blob/main/tflite/model_maker/model/model_dynamic.tflite')
     tflite_interpreter.allocate_tensors()
 
 ## Input Fields
