@@ -3,6 +3,8 @@
 ## tflite
 ### TFLite Basic Usage
 - https://github.com/wayne0git/tensorflow_basic/blob/main/tflite/tflite_basics.ipynb
+### TFLite Model Maker
+- https://github.com/wayne0git/tensorflow_basic/blob/main/tflite/model_maker/tflite_model_maker_classification_example.ipynb
 
 ## example
 ### Example code for different task
