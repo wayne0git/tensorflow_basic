@@ -9,6 +9,8 @@
 ## example
 ### Example code for different task
 - Image Classification - https://github.com/wayne0git/tensorflow_basic/blob/main/example/tensorflow_image_classification_example.ipynb
+- Super Resolution - https://github.com/wayne0git/tensorflow_basic/blob/main/example/tensorflow_sr_example.ipynb
 
 ### Example code for different NN architecture
 - Spatial Transformer Network - https://github.com/wayne0git/tensorflow_basic/tree/main/example/cnn_stn
+- Transpose Convolution - https://github.com/wayne0git/tensorflow_basic/blob/main/example/tensorflow_sr_example.ipynb
