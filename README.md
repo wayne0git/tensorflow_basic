@@ -14,3 +14,4 @@
 ### Different NN architecture
 - Spatial Transformer Network - https://github.com/wayne0git/tensorflow_basic/tree/main/example/cnn_stn
 - Transpose Convolution - https://github.com/wayne0git/tensorflow_basic/blob/main/example/tensorflow_sr_example.ipynb
+- Pix2Pix GAN - https://github.com/wayne0git/tensorflow_basic/blob/main/example/pix2pix_gan_example.ipynb
